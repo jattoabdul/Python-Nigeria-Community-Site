@@ -71,3 +71,4 @@ TEST_RUNNER = 'django.test.runner.DiscoverRunner'
 
 # Your local stuff: Below this line define 3rd party library settings
 # ------------------------------------------------------------------------------
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
