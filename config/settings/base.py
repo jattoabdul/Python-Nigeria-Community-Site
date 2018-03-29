@@ -59,6 +59,7 @@ LOCAL_APPS = [
     # custom users app
     'python_nigeria_site.users.apps.UsersConfig',
     # Your stuff: custom apps go here
+    'python_nigeria_site.blog.apps.BlogConfig',
 ]
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
