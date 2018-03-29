@@ -311,3 +311,6 @@ python_nigeria_site/media/
 !/compose/local/
 
 frontend/node_modules
+
+### Pycharm Files
+.idea/
