@@ -43,6 +43,9 @@ DJANGO_APPS = [
 
     # Admin
     'django.contrib.admin',
+
+    # Graphene
+    'graphene_django',
 ]
 THIRD_PARTY_APPS = [
     'crispy_forms',  # Form layouts
@@ -273,3 +276,9 @@ ADMIN_URL = r'^admin/'
 
 # Your common stuff: Below this line define 3rd party library settings
 # ------------------------------------------------------------------------------
+
+# GRAPHENE
+GRAPHENE = {
+    'SCHEMA': 'app.schema.schema' # Where your Graphene schema lives
+}
+
